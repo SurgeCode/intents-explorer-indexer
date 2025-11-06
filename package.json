@@ -1,0 +1,16 @@
+{
+  "name": "fees-indexer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "index": "tsx index-fees.ts",
+    "process": "tsx process-fees.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.0.0",
+    "@vercel/blob": "^0.25.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
+

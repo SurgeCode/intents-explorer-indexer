@@ -1,0 +1,994 @@
+{
+  "leaderboard": [
+    {
+      "referral": "swapkit",
+      "totalFeesUSD": 3453309.1876773103
+    },
+    {
+      "referral": "zashi",
+      "totalFeesUSD": 677515.6106513459
+    },
+    {
+      "referral": "near-intents.intents-referral.near",
+      "totalFeesUSD": 307198.03661467263
+    },
+    {
+      "referral": "swapkit-thorswap",
+      "totalFeesUSD": 176199.02251242878
+    },
+    {
+      "referral": "solswap.intents-referral.near",
+      "totalFeesUSD": 143120.0120236441
+    },
+    {
+      "referral": "kyberswap",
+      "totalFeesUSD": 50586.09648822334
+    },
+    {
+      "referral": "unity_wallet",
+      "totalFeesUSD": 17148.730244298316
+    },
+    {
+      "referral": "consumerfi",
+      "totalFeesUSD": 2921.5454592242622
+    },
+    {
+      "referral": "referral",
+      "totalFeesUSD": 2125.4071046772638
+    },
+    {
+      "referral": "gemwallet",
+      "totalFeesUSD": 1184.1536231812552
+    },
+    {
+      "referral": "intents.tg",
+      "totalFeesUSD": 769.338381403844
+    },
+    {
+      "referral": "trumpswap.intents-referral.near",
+      "totalFeesUSD": 425.94410290707026
+    },
+    {
+      "referral": "swapkit-trustswapkit",
+      "totalFeesUSD": 111.66163131596662
+    },
+    {
+      "referral": "surge-swap",
+      "totalFeesUSD": 99.13090993374834
+    },
+    {
+      "referral": "dogecoinswap.intents-referral.near",
+      "totalFeesUSD": 66.02281006047463
+    },
+    {
+      "referral": "turboswap.intents-referral.near",
+      "totalFeesUSD": 53.54979424118467
+    },
+    {
+      "referral": "app.vdex.trade",
+      "totalFeesUSD": 38.898665035011284
+    },
+    {
+      "referral": "rango",
+      "totalFeesUSD": 6.574488681
+    },
+    {
+      "referral": "swapkit-swapkit",
+      "totalFeesUSD": 1.5306746777061153
+    },
+    {
+      "referral": "wowmax",
+      "totalFeesUSD": 1.001703408
+    },
+    {
+      "referral": "infinex.near",
+      "totalFeesUSD": 0.668237426165064
+    },
+    {
+      "referral": "swapkit-isdex",
+      "totalFeesUSD": 0.5618606581366844
+    },
+    {
+      "referral": "zolanear",
+      "totalFeesUSD": 0.10779858358085198
+    },
+    {
+      "referral": "mosaic-vint.near",
+      "totalFeesUSD": 0.10188316397084966
+    },
+    {
+      "referral": "flex_in",
+      "totalFeesUSD": 0.0669356
+    },
+    {
+      "referral": "veax.near",
+      "totalFeesUSD": 0.05673503214885278
+    },
+    {
+      "referral": "swapkit-myrandomname",
+      "totalFeesUSD": 0.031838455
+    },
+    {
+      "referral": "web_starlight.near",
+      "totalFeesUSD": 0.021096679645971887
+    },
+    {
+      "referral": "rubic",
+      "totalFeesUSD": 0.02076486
+    },
+    {
+      "referral": "iqlusion",
+      "totalFeesUSD": 0.01730405
+    },
+    {
+      "referral": "0x2530e423b89b8ca8a5065cfdf280dbfc46d6886b",
+      "totalFeesUSD": 0.00125
+    },
+    {
+      "referral": "stableflow",
+      "totalFeesUSD": 0
+    },
+    {
+      "referral": "reffer.near",
+      "totalFeesUSD": 0
+    },
+    {
+      "referral": "miquel",
+      "totalFeesUSD": 0
+    },
+    {
+      "referral": "miquelswap",
+      "totalFeesUSD": 0
+    }
+  ],
+  "chartData": [
+    {
+      "date": "2025-05-06",
+      "cumulativeFees": 0.02583199146656,
+      "dailyFees": 0.02583199146656
+    },
+    {
+      "date": "2025-05-13",
+      "cumulativeFees": 0.045334340356960004,
+      "dailyFees": 0.019502348890400003
+    },
+    {
+      "date": "2025-05-14",
+      "cumulativeFees": 0.20773851785840164,
+      "dailyFees": 0.16240417750144162
+    },
+    {
+      "date": "2025-05-15",
+      "cumulativeFees": 0.23737644122200163,
+      "dailyFees": 0.0296379233636
+    },
+    {
+      "date": "2025-05-20",
+      "cumulativeFees": 0.24737348122200165,
+      "dailyFees": 0.00999704
+    },
+    {
+      "date": "2025-05-22",
+      "cumulativeFees": 0.3297661196823216,
+      "dailyFees": 0.08239263846032
+    },
+    {
+      "date": "2025-05-23",
+      "cumulativeFees": 0.9811035051117216,
+      "dailyFees": 0.6513373854294
+    },
+    {
+      "date": "2025-05-24",
+      "cumulativeFees": 1.1242675767117216,
+      "dailyFees": 0.1431640716
+    },
+    {
+      "date": "2025-05-28",
+      "cumulativeFees": 1.1898269118252216,
+      "dailyFees": 0.0655593351135
+    },
+    {
+      "date": "2025-05-29",
+      "cumulativeFees": 2.1608103036252215,
+      "dailyFees": 0.9709833918
+    },
+    {
+      "date": "2025-05-30",
+      "cumulativeFees": 2.6271184240931214,
+      "dailyFees": 0.46630812046789993
+    },
+    {
+      "date": "2025-06-01",
+      "cumulativeFees": 2.6280884240931215,
+      "dailyFees": 0.0009699999999999999
+    },
+    {
+      "date": "2025-06-02",
+      "cumulativeFees": 196.6533084240931,
+      "dailyFees": 194.02522
+    },
+    {
+      "date": "2025-06-03",
+      "cumulativeFees": 196.7752326111449,
+      "dailyFees": 0.1219241870518
+    },
+    {
+      "date": "2025-06-04",
+      "cumulativeFees": 223.3911149137521,
+      "dailyFees": 26.6158823026072
+    },
+    {
+      "date": "2025-06-05",
+      "cumulativeFees": 277.24070810597846,
+      "dailyFees": 53.84959319222637
+    },
+    {
+      "date": "2025-06-06",
+      "cumulativeFees": 396.3861129139061,
+      "dailyFees": 119.14540480792768
+    },
+    {
+      "date": "2025-06-07",
+      "cumulativeFees": 397.40551819902595,
+      "dailyFees": 1.0194052851198345
+    },
+    {
+      "date": "2025-06-08",
+      "cumulativeFees": 398.6770174840317,
+      "dailyFees": 1.2714992850057518
+    },
+    {
+      "date": "2025-06-09",
+      "cumulativeFees": 420.79495331592045,
+      "dailyFees": 22.11793583188873
+    },
+    {
+      "date": "2025-06-10",
+      "cumulativeFees": 431.45008317196675,
+      "dailyFees": 10.655129856046281
+    },
+    {
+      "date": "2025-06-11",
+      "cumulativeFees": 1732.745743171967,
+      "dailyFees": 1301.2956600000002
+    },
+    {
+      "date": "2025-06-12",
+      "cumulativeFees": 4903.10273696822,
+      "dailyFees": 3170.3569937962525
+    },
+    {
+      "date": "2025-06-13",
+      "cumulativeFees": 8604.587720580368,
+      "dailyFees": 3701.484983612149
+    },
+    {
+      "date": "2025-06-14",
+      "cumulativeFees": 11451.940724918215,
+      "dailyFees": 2847.353004337846
+    },
+    {
+      "date": "2025-06-15",
+      "cumulativeFees": 12873.384361195951,
+      "dailyFees": 1421.4436362777358
+    },
+    {
+      "date": "2025-06-16",
+      "cumulativeFees": 15647.76125820792,
+      "dailyFees": 2774.376897011969
+    },
+    {
+      "date": "2025-06-17",
+      "cumulativeFees": 29206.672309525995,
+      "dailyFees": 13558.911051318077
+    },
+    {
+      "date": "2025-06-18",
+      "cumulativeFees": 37498.642877455786,
+      "dailyFees": 8291.970567929788
+    },
+    {
+      "date": "2025-06-19",
+      "cumulativeFees": 43526.525548166406,
+      "dailyFees": 6027.882670710621
+    },
+    {
+      "date": "2025-06-20",
+      "cumulativeFees": 59435.61227105974,
+      "dailyFees": 15909.086722893333
+    },
+    {
+      "date": "2025-06-21",
+      "cumulativeFees": 62618.55421124754,
+      "dailyFees": 3182.941940187795
+    },
+    {
+      "date": "2025-06-22",
+      "cumulativeFees": 68801.00001099332,
+      "dailyFees": 6182.445799745786
+    },
+    {
+      "date": "2025-06-23",
+      "cumulativeFees": 72969.63917076535,
+      "dailyFees": 4168.639159772034
+    },
+    {
+      "date": "2025-06-24",
+      "cumulativeFees": 74984.27941438343,
+      "dailyFees": 2014.640243618076
+    },
+    {
+      "date": "2025-06-25",
+      "cumulativeFees": 76840.8279330499,
+      "dailyFees": 1856.5485186664782
+    },
+    {
+      "date": "2025-06-26",
+      "cumulativeFees": 82041.77894997133,
+      "dailyFees": 5200.951016921419
+    },
+    {
+      "date": "2025-06-27",
+      "cumulativeFees": 83572.64675698316,
+      "dailyFees": 1530.867807011835
+    },
+    {
+      "date": "2025-06-28",
+      "cumulativeFees": 84494.8456209993,
+      "dailyFees": 922.1988640161441
+    },
+    {
+      "date": "2025-06-29",
+      "cumulativeFees": 95919.83252282333,
+      "dailyFees": 11424.986901824035
+    },
+    {
+      "date": "2025-06-30",
+      "cumulativeFees": 102870.4273356823,
+      "dailyFees": 6950.594812858973
+    },
+    {
+      "date": "2025-07-01",
+      "cumulativeFees": 103223.49915360077,
+      "dailyFees": 353.0718179184699
+    },
+    {
+      "date": "2025-07-02",
+      "cumulativeFees": 106340.12350558495,
+      "dailyFees": 3116.6243519841773
+    },
+    {
+      "date": "2025-07-03",
+      "cumulativeFees": 111234.23827814878,
+      "dailyFees": 4894.1147725638275
+    },
+    {
+      "date": "2025-07-04",
+      "cumulativeFees": 112985.02417165716,
+      "dailyFees": 1750.7858935083723
+    },
+    {
+      "date": "2025-07-05",
+      "cumulativeFees": 119756.60620126931,
+      "dailyFees": 6771.58202961215
+    },
+    {
+      "date": "2025-07-06",
+      "cumulativeFees": 124639.54176495472,
+      "dailyFees": 4882.935563685409
+    },
+    {
+      "date": "2025-07-07",
+      "cumulativeFees": 126736.74847918839,
+      "dailyFees": 2097.2067142336805
+    },
+    {
+      "date": "2025-07-08",
+      "cumulativeFees": 127960.14150750231,
+      "dailyFees": 1223.3930283139234
+    },
+    {
+      "date": "2025-07-09",
+      "cumulativeFees": 135004.90216945976,
+      "dailyFees": 7044.760661957446
+    },
+    {
+      "date": "2025-07-10",
+      "cumulativeFees": 140055.6614443551,
+      "dailyFees": 5050.759274895328
+    },
+    {
+      "date": "2025-07-11",
+      "cumulativeFees": 144488.39050323403,
+      "dailyFees": 4432.7290588789465
+    },
+    {
+      "date": "2025-07-12",
+      "cumulativeFees": 148893.55873166953,
+      "dailyFees": 4405.168228435501
+    },
+    {
+      "date": "2025-07-13",
+      "cumulativeFees": 151131.53625625125,
+      "dailyFees": 2237.977524581701
+    },
+    {
+      "date": "2025-07-14",
+      "cumulativeFees": 158170.99828942504,
+      "dailyFees": 7039.462033173783
+    },
+    {
+      "date": "2025-07-15",
+      "cumulativeFees": 163126.59112817224,
+      "dailyFees": 4955.592838747197
+    },
+    {
+      "date": "2025-07-16",
+      "cumulativeFees": 167293.540552632,
+      "dailyFees": 4166.949424459776
+    },
+    {
+      "date": "2025-07-17",
+      "cumulativeFees": 173361.91515827738,
+      "dailyFees": 6068.374605645359
+    },
+    {
+      "date": "2025-07-18",
+      "cumulativeFees": 178034.60434737251,
+      "dailyFees": 4672.689189095138
+    },
+    {
+      "date": "2025-07-19",
+      "cumulativeFees": 184272.7561882545,
+      "dailyFees": 6238.151840881995
+    },
+    {
+      "date": "2025-07-20",
+      "cumulativeFees": 200370.29628825214,
+      "dailyFees": 16097.54009999764
+    },
+    {
+      "date": "2025-07-21",
+      "cumulativeFees": 222584.83792638793,
+      "dailyFees": 22214.54163813579
+    },
+    {
+      "date": "2025-07-22",
+      "cumulativeFees": 231142.24105641802,
+      "dailyFees": 8557.403130030074
+    },
+    {
+      "date": "2025-07-23",
+      "cumulativeFees": 239907.92493847033,
+      "dailyFees": 8765.683882052304
+    },
+    {
+      "date": "2025-07-24",
+      "cumulativeFees": 245829.39439397684,
+      "dailyFees": 5921.469455506508
+    },
+    {
+      "date": "2025-07-25",
+      "cumulativeFees": 249990.03125574937,
+      "dailyFees": 4160.63686177254
+    },
+    {
+      "date": "2025-07-26",
+      "cumulativeFees": 259579.38972490747,
+      "dailyFees": 9589.358469158082
+    },
+    {
+      "date": "2025-07-27",
+      "cumulativeFees": 270426.50627500535,
+      "dailyFees": 10847.11655009789
+    },
+    {
+      "date": "2025-07-28",
+      "cumulativeFees": 277326.08377115976,
+      "dailyFees": 6899.577496154387
+    },
+    {
+      "date": "2025-07-29",
+      "cumulativeFees": 290216.3690607993,
+      "dailyFees": 12890.285289639569
+    },
+    {
+      "date": "2025-07-30",
+      "cumulativeFees": 300998.8615558378,
+      "dailyFees": 10782.492495038472
+    },
+    {
+      "date": "2025-07-31",
+      "cumulativeFees": 310467.3612372631,
+      "dailyFees": 9468.499681425297
+    },
+    {
+      "date": "2025-08-01",
+      "cumulativeFees": 326165.3649333482,
+      "dailyFees": 15698.003696085101
+    },
+    {
+      "date": "2025-08-02",
+      "cumulativeFees": 349205.9702275217,
+      "dailyFees": 23040.605294173554
+    },
+    {
+      "date": "2025-08-03",
+      "cumulativeFees": 369139.7964277681,
+      "dailyFees": 19933.826200246363
+    },
+    {
+      "date": "2025-08-04",
+      "cumulativeFees": 377380.65960791515,
+      "dailyFees": 8240.863180147071
+    },
+    {
+      "date": "2025-08-05",
+      "cumulativeFees": 381842.108074792,
+      "dailyFees": 4461.448466876892
+    },
+    {
+      "date": "2025-08-06",
+      "cumulativeFees": 383777.8055718107,
+      "dailyFees": 1935.697497018694
+    },
+    {
+      "date": "2025-08-07",
+      "cumulativeFees": 388097.82003904675,
+      "dailyFees": 4320.014467236086
+    },
+    {
+      "date": "2025-08-08",
+      "cumulativeFees": 415779.5385336797,
+      "dailyFees": 27681.71849463293
+    },
+    {
+      "date": "2025-08-09",
+      "cumulativeFees": 434034.7907488969,
+      "dailyFees": 18255.252215217242
+    },
+    {
+      "date": "2025-08-10",
+      "cumulativeFees": 466599.90512640367,
+      "dailyFees": 32565.11437750679
+    },
+    {
+      "date": "2025-08-11",
+      "cumulativeFees": 492597.29229190387,
+      "dailyFees": 25997.38716550017
+    },
+    {
+      "date": "2025-08-12",
+      "cumulativeFees": 498388.2032801906,
+      "dailyFees": 5790.910988286718
+    },
+    {
+      "date": "2025-08-13",
+      "cumulativeFees": 509958.59223121364,
+      "dailyFees": 11570.388951023046
+    },
+    {
+      "date": "2025-08-14",
+      "cumulativeFees": 519650.47563172394,
+      "dailyFees": 9691.883400510273
+    },
+    {
+      "date": "2025-08-15",
+      "cumulativeFees": 526920.3023581861,
+      "dailyFees": 7269.826726462187
+    },
+    {
+      "date": "2025-08-16",
+      "cumulativeFees": 530328.6967082742,
+      "dailyFees": 3408.3943500881005
+    },
+    {
+      "date": "2025-08-17",
+      "cumulativeFees": 537024.9140710081,
+      "dailyFees": 6696.217362733874
+    },
+    {
+      "date": "2025-08-18",
+      "cumulativeFees": 543373.3347321315,
+      "dailyFees": 6348.420661123388
+    },
+    {
+      "date": "2025-08-19",
+      "cumulativeFees": 561457.4935300733,
+      "dailyFees": 18084.15879794187
+    },
+    {
+      "date": "2025-08-20",
+      "cumulativeFees": 570854.5742587945,
+      "dailyFees": 9397.08072872119
+    },
+    {
+      "date": "2025-08-21",
+      "cumulativeFees": 579735.3969532226,
+      "dailyFees": 8880.822694428038
+    },
+    {
+      "date": "2025-08-22",
+      "cumulativeFees": 593425.7765138336,
+      "dailyFees": 13690.379560610929
+    },
+    {
+      "date": "2025-08-23",
+      "cumulativeFees": 608404.1003920292,
+      "dailyFees": 14978.323878195555
+    },
+    {
+      "date": "2025-08-24",
+      "cumulativeFees": 621160.1134997065,
+      "dailyFees": 12756.013107677301
+    },
+    {
+      "date": "2025-08-25",
+      "cumulativeFees": 632058.7345454284,
+      "dailyFees": 10898.621045721939
+    },
+    {
+      "date": "2025-08-26",
+      "cumulativeFees": 641324.1708532582,
+      "dailyFees": 9265.436307829767
+    },
+    {
+      "date": "2025-08-27",
+      "cumulativeFees": 653194.0177410472,
+      "dailyFees": 11869.846887789015
+    },
+    {
+      "date": "2025-08-28",
+      "cumulativeFees": 664063.2127060238,
+      "dailyFees": 10869.19496497669
+    },
+    {
+      "date": "2025-08-29",
+      "cumulativeFees": 681153.7507734834,
+      "dailyFees": 17090.53806745956
+    },
+    {
+      "date": "2025-08-30",
+      "cumulativeFees": 686345.1294557643,
+      "dailyFees": 5191.3786822808825
+    },
+    {
+      "date": "2025-08-31",
+      "cumulativeFees": 689873.5381014084,
+      "dailyFees": 3528.408645644131
+    },
+    {
+      "date": "2025-09-01",
+      "cumulativeFees": 697950.759715569,
+      "dailyFees": 8077.221614160558
+    },
+    {
+      "date": "2025-09-02",
+      "cumulativeFees": 716507.860576011,
+      "dailyFees": 18557.100860442035
+    },
+    {
+      "date": "2025-09-03",
+      "cumulativeFees": 731060.7353686908,
+      "dailyFees": 14552.874792679748
+    },
+    {
+      "date": "2025-09-04",
+      "cumulativeFees": 741076.7350292352,
+      "dailyFees": 10015.999660544463
+    },
+    {
+      "date": "2025-09-05",
+      "cumulativeFees": 758763.723220543,
+      "dailyFees": 17686.98819130774
+    },
+    {
+      "date": "2025-09-06",
+      "cumulativeFees": 771655.1964381902,
+      "dailyFees": 12891.473217647192
+    },
+    {
+      "date": "2025-09-07",
+      "cumulativeFees": 779088.3024664441,
+      "dailyFees": 7433.1060282538665
+    },
+    {
+      "date": "2025-09-08",
+      "cumulativeFees": 793826.7755619048,
+      "dailyFees": 14738.473095460655
+    },
+    {
+      "date": "2025-09-09",
+      "cumulativeFees": 807468.8420023904,
+      "dailyFees": 13642.066440485607
+    },
+    {
+      "date": "2025-09-10",
+      "cumulativeFees": 826046.2958196688,
+      "dailyFees": 18577.453817278354
+    },
+    {
+      "date": "2025-09-11",
+      "cumulativeFees": 840169.5564210397,
+      "dailyFees": 14123.260601370974
+    },
+    {
+      "date": "2025-09-12",
+      "cumulativeFees": 867141.2183452315,
+      "dailyFees": 26971.661924191725
+    },
+    {
+      "date": "2025-09-13",
+      "cumulativeFees": 891905.9224634307,
+      "dailyFees": 24764.704118199214
+    },
+    {
+      "date": "2025-09-14",
+      "cumulativeFees": 913207.4005183288,
+      "dailyFees": 21301.478054898125
+    },
+    {
+      "date": "2025-09-15",
+      "cumulativeFees": 937353.9976483309,
+      "dailyFees": 24146.5971300021
+    },
+    {
+      "date": "2025-09-16",
+      "cumulativeFees": 956611.938562098,
+      "dailyFees": 19257.94091376706
+    },
+    {
+      "date": "2025-09-17",
+      "cumulativeFees": 974794.2768019033,
+      "dailyFees": 18182.338239805256
+    },
+    {
+      "date": "2025-09-18",
+      "cumulativeFees": 1003398.358088972,
+      "dailyFees": 28604.08128706883
+    },
+    {
+      "date": "2025-09-19",
+      "cumulativeFees": 1018529.4100716591,
+      "dailyFees": 15131.05198268703
+    },
+    {
+      "date": "2025-09-20",
+      "cumulativeFees": 1028559.4738396005,
+      "dailyFees": 10030.063767941308
+    },
+    {
+      "date": "2025-09-21",
+      "cumulativeFees": 1049900.4395153916,
+      "dailyFees": 21340.96567579117
+    },
+    {
+      "date": "2025-09-22",
+      "cumulativeFees": 1075670.049010233,
+      "dailyFees": 25769.609494841472
+    },
+    {
+      "date": "2025-09-23",
+      "cumulativeFees": 1088508.1604230136,
+      "dailyFees": 12838.111412780494
+    },
+    {
+      "date": "2025-09-24",
+      "cumulativeFees": 1100100.5674253588,
+      "dailyFees": 11592.407002345286
+    },
+    {
+      "date": "2025-09-25",
+      "cumulativeFees": 1136387.1754405634,
+      "dailyFees": 36286.608015204445
+    },
+    {
+      "date": "2025-09-26",
+      "cumulativeFees": 1173255.4541904554,
+      "dailyFees": 36868.27874989201
+    },
+    {
+      "date": "2025-09-27",
+      "cumulativeFees": 1201386.4443389573,
+      "dailyFees": 28130.99014850187
+    },
+    {
+      "date": "2025-09-28",
+      "cumulativeFees": 1233846.701370379,
+      "dailyFees": 32460.257031421574
+    },
+    {
+      "date": "2025-09-29",
+      "cumulativeFees": 1269007.8889125504,
+      "dailyFees": 35161.187542171436
+    },
+    {
+      "date": "2025-09-30",
+      "cumulativeFees": 1307594.335845755,
+      "dailyFees": 38586.44693320458
+    },
+    {
+      "date": "2025-10-01",
+      "cumulativeFees": 1401289.266460877,
+      "dailyFees": 93694.930615122
+    },
+    {
+      "date": "2025-10-02",
+      "cumulativeFees": 1488950.7818796951,
+      "dailyFees": 87661.51541881828
+    },
+    {
+      "date": "2025-10-03",
+      "cumulativeFees": 1574631.9942387228,
+      "dailyFees": 85681.2123590278
+    },
+    {
+      "date": "2025-10-04",
+      "cumulativeFees": 1625291.6540960832,
+      "dailyFees": 50659.659857360304
+    },
+    {
+      "date": "2025-10-05",
+      "cumulativeFees": 1672679.9234283564,
+      "dailyFees": 47388.26933227324
+    },
+    {
+      "date": "2025-10-06",
+      "cumulativeFees": 1719533.7530446341,
+      "dailyFees": 46853.8296162776
+    },
+    {
+      "date": "2025-10-07",
+      "cumulativeFees": 1772122.0254521454,
+      "dailyFees": 52588.27240751113
+    },
+    {
+      "date": "2025-10-08",
+      "cumulativeFees": 1822530.9731101668,
+      "dailyFees": 50408.947658021396
+    },
+    {
+      "date": "2025-10-09",
+      "cumulativeFees": 1880393.7986243756,
+      "dailyFees": 57862.825514208664
+    },
+    {
+      "date": "2025-10-10",
+      "cumulativeFees": 1957085.8641229663,
+      "dailyFees": 76692.0654985907
+    },
+    {
+      "date": "2025-10-11",
+      "cumulativeFees": 2036188.9586157608,
+      "dailyFees": 79103.09449279447
+    },
+    {
+      "date": "2025-10-12",
+      "cumulativeFees": 2108872.4520089673,
+      "dailyFees": 72683.49339320663
+    },
+    {
+      "date": "2025-10-13",
+      "cumulativeFees": 2179196.654030906,
+      "dailyFees": 70324.20202193853
+    },
+    {
+      "date": "2025-10-14",
+      "cumulativeFees": 2226321.8004148034,
+      "dailyFees": 47125.14638389718
+    },
+    {
+      "date": "2025-10-15",
+      "cumulativeFees": 2290163.949812057,
+      "dailyFees": 63842.14939725331
+    },
+    {
+      "date": "2025-10-16",
+      "cumulativeFees": 2392280.0871942793,
+      "dailyFees": 102116.13738222254
+    },
+    {
+      "date": "2025-10-17",
+      "cumulativeFees": 2484662.73841164,
+      "dailyFees": 92382.65121736044
+    },
+    {
+      "date": "2025-10-18",
+      "cumulativeFees": 2521467.3343418976,
+      "dailyFees": 36804.59593025759
+    },
+    {
+      "date": "2025-10-19",
+      "cumulativeFees": 2563137.3336061765,
+      "dailyFees": 41669.99926427873
+    },
+    {
+      "date": "2025-10-20",
+      "cumulativeFees": 2659409.0075390916,
+      "dailyFees": 96271.67393291497
+    },
+    {
+      "date": "2025-10-21",
+      "cumulativeFees": 2741117.9814077374,
+      "dailyFees": 81708.9738686457
+    },
+    {
+      "date": "2025-10-22",
+      "cumulativeFees": 2832846.3267001333,
+      "dailyFees": 91728.34529239575
+    },
+    {
+      "date": "2025-10-23",
+      "cumulativeFees": 2899005.2746322295,
+      "dailyFees": 66158.94793209598
+    },
+    {
+      "date": "2025-10-24",
+      "cumulativeFees": 3000128.214910668,
+      "dailyFees": 101122.94027843823
+    },
+    {
+      "date": "2025-10-25",
+      "cumulativeFees": 3046820.3695091666,
+      "dailyFees": 46692.15459849882
+    },
+    {
+      "date": "2025-10-26",
+      "cumulativeFees": 3154111.4269809653,
+      "dailyFees": 107291.05747179894
+    },
+    {
+      "date": "2025-10-27",
+      "cumulativeFees": 3277727.8083688687,
+      "dailyFees": 123616.38138790356
+    },
+    {
+      "date": "2025-10-28",
+      "cumulativeFees": 3370514.937732015,
+      "dailyFees": 92787.12936314629
+    },
+    {
+      "date": "2025-10-29",
+      "cumulativeFees": 3491031.0042947456,
+      "dailyFees": 120516.06656273076
+    },
+    {
+      "date": "2025-10-30",
+      "cumulativeFees": 3661911.7168336897,
+      "dailyFees": 170880.7125389443
+    },
+    {
+      "date": "2025-10-31",
+      "cumulativeFees": 3795407.4167497503,
+      "dailyFees": 133495.69991606055
+    },
+    {
+      "date": "2025-11-01",
+      "cumulativeFees": 3951366.3910659514,
+      "dailyFees": 155958.97431620135
+    },
+    {
+      "date": "2025-11-02",
+      "cumulativeFees": 4080867.8808489903,
+      "dailyFees": 129501.48978303876
+    },
+    {
+      "date": "2025-11-03",
+      "cumulativeFees": 4270178.379488777,
+      "dailyFees": 189310.4986397874
+    },
+    {
+      "date": "2025-11-04",
+      "cumulativeFees": 4716442.475653363,
+      "dailyFees": 446264.09616458573
+    },
+    {
+      "date": "2025-11-05",
+      "cumulativeFees": 4832883.111265846,
+      "dailyFees": 116440.63561248174
+    }
+  ],
+  "totalFees": 4832883.111265178,
+  "totalReferrals": 35,
+  "lastUpdated": "2025-11-05T20:36:28.229Z"
+}
