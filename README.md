@@ -1,6 +1,6 @@
-# Fee Indexer
+# Fee Indexing System
 
-Indexes all transactions from the Near Intents Explorer API and calculates total fees generated per referral per asset.
+Indexes and processes transaction data from NEAR Intents 1-Click Explorer API. Outputs daily aggregated metrics to Vercel Blob Storage.
 
 ## Setup
 
@@ -8,47 +8,61 @@ Indexes all transactions from the Near Intents Explorer API and calculates total
 npm install
 ```
 
-## Usage
+Create `.env`:
+```bash
+EXPLORER_API_KEY=your_explorer_api_key
+BLOB_READ_WRITE_TOKEN=your_vercel_blob_token
+```
+
+## Run
 
 ```bash
-npm run index
+npm run workflow
 ```
 
-## Features
+This indexes new transactions and processes them. Uses deduplication to skip existing transactions automatically. Stops after 3 consecutive pages with no new data.
 
-- **Resumable**: Tracks progress in `indexer-state.json` - stop and restart anytime
-- **Incremental CSV**: Updates `referral-fees.csv` after each page
-- **Rate limited**: 1000ms delay between requests to avoid spamming the server
-- **Fee calculation**: Calculates fees based on appFees (basis points) from input amount
-- **Timestamp-locked pagination**: Creates a stable snapshot to handle new transactions arriving during indexing
+## Output Data
 
-## How It Handles New Transactions
+The daily JSON blob contains:
 
-When you start indexing, the script:
-1. Fetches the first page
-2. Records the oldest transaction timestamp
-3. Uses `endTimestampUnix` filter on all subsequent requests
-
-This creates a **stable snapshot** of transactions. Even if 10,000 new transactions arrive while you're indexing, they won't affect your pagination because you're only fetching transactions created *before* your snapshot timestamp.
-
-When you finish and want to index newer transactions, delete `indexer-state.json` to start a fresh run.
-
-## Output
-
-`referral-fees.csv` contains:
-```
-Referral,Asset,Total Fee
-some-referral,nep141:eth-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.omft.near,1234.56
-some-referral,nep141:17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1,7890.12
+```typescript
+{
+  leaderboard: [{ referral: string, totalFeesUSD: number }],
+  chartData: [{ date: string, cumulativeFees: number, dailyFees: number }],
+  assetFlows: [{ symbol: string, totalInflowUSD: number, totalOutflowUSD: number, netFlowUSD: number, ... }],
+  chainFlows: [{ chain: string, totalInflowUSD: number, totalOutflowUSD: number, netFlowUSD: number, ... }],
+  providerFlows: [{ provider: string, totalInflowUSD: number, totalFeesUSD: number, averageFeeBps: number, ... }],
+  topRoutes: [{ fromAsset: string, toAsset: string, volumeUSD: number, count: number }],
+  totalInflowUSD: number,
+  totalOutflowUSD: number,
+  totalFees: number,
+  totalReferrals: number,
+  lastUpdated: string
+}
 ```
 
-## State Management
+## Frontend Usage
 
-`indexer-state.json` tracks:
-- Current page number
-- Snapshot timestamp (endTimestampUnix)
-- Total transactions processed
-- Last updated timestamp
+The data is uploaded to a stable URL that never changes:
 
-Delete this file to restart from scratch with a fresh snapshot.
+```typescript
+const FEES_URL = 'https://thvomwknsgnklfce.public.blob.vercel-storage.com/referral-fees.json';
 
+const response = await fetch(FEES_URL);
+const data = await response.json();
+```
+
+## Deployment
+
+Add to crontab for daily runs:
+
+```bash
+0 0 * * * cd /path/to/fees && npm run workflow >> /var/log/fees.log 2>&1
+```
+
+## Files
+
+- `index.ts` - Fetches transactions (deduplicates automatically)
+- `process.ts` - Processes CSV, uploads to blob
+- `referral-fees.csv` - Local transaction storage
